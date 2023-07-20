@@ -1,0 +1,354 @@
+body {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-size: 62.5%;
+  font-family: "Alata", sans-serif;
+}
+.navbar-button{
+  display: none;
+}
+.arxa-sekil {
+  background-image: url(desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 1558px;
+  height: 700px;
+}
+.navbar {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+.linkler {
+  display: flex;
+  gap: 2rem;
+}
+.elaqe {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.seklin-ustunde-yazi {
+  border: white solid;
+  margin-top: 9rem;
+  padding: 3rem;
+  margin-left: 11rem;
+  margin-right: 35rem;
+}
+.IMMERSIVE {
+  font-size: 5rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+.eynekli-sekil-yazilar {
+  margin-top: 11rem;
+  margin-left: 11rem;
+  display: flex;
+}
+.yazilar {
+  background-color: white;
+  width: 25rem;
+  padding: 5rem;
+  margin-left: 35rem;
+  margin-top: 11rem;
+  z-index: 1;
+}
+.THE-LEADER-IN {
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.Founded {
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: hsl(0, 0%, 55%);
+}
+.eynekli {
+  position: absolute;
+}
+.our-creations {
+  margin-top: 11rem;
+  margin-left: 11rem;
+  margin-right: 14rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.see-all {
+  background-color: white;
+  color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+}
+.see-all:hover {
+  background-color: black;
+  color: white;
+}
+.sekiller {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 256px 256px 256px 256px;
+  gap: 2rem;
+  margin-left: 11rem;
+}
+.earth {
+  position: absolute;
+}
+.deep-earth {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  width: 11rem;
+  margin-left: 2.5rem;
+  margin-top: 22rem;
+}
+.ara {
+  margin-top: 28rem;
+}
+.cursor {
+  cursor: pointer;
+}
+.cursor1 {
+  cursor: pointer;
+}
+.footer {
+  margin-top: 36rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-left: 11rem;
+  padding-top: 3rem;
+  padding-right: 14rem;
+}
+.ust-hisse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.applar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+.alt-hisse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.reserved {
+  color: hsl(0, 0%, 41%);
+  font-size: 0.95rem;
+}
+.ad {
+  width: 1.4rem;
+  color: white;
+  padding-top: 3px;
+  background-color: white;
+}
+.hidden {
+  opacity: 0;
+}
+.hover {
+  opacity: 0.5;
+}
+.mobile {
+  display: none;
+}
+.linkler-menyu{
+  padding: 2rem;
+  margin: 2rem;
+  justify-content: center;
+  border: white solid;
+}
+
+@media (max-width: 1400px) {
+  .navbar,
+  .footer {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .seklin-ustunde-yazi {
+    margin-right: 30rem;
+  }
+
+  .sekiller,
+  .our-creations,
+  .eynekli-sekil-yazilar {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+}
+@media (max-width: 1270px) {
+  .sekiller {
+    grid-template-columns: 256px 256px 256px;
+    margin-left: 13rem;
+  }
+  .sekiller :nth-child(4) {
+    margin-top: 28rem;
+  }
+  .seklin-ustunde-yazi {
+    margin-right: 20rem;
+  }
+}
+@media (max-width: 1160px) {
+  .sekiller {
+    margin-left: 7rem;
+  }
+  .eynekli-sekil-yazilar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .eynekli {
+    position: static;
+    width: 758px;
+  }
+  .seklin-ustunde-yazi {
+    margin-right: 13rem;
+  }
+  .yazilar {
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  .our-creations {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 1000px) {
+  .alt-hisse {
+    flex-direction: column;
+    align-items: center;
+  }
+  .seklin-ustunde-yazi {
+    margin-right: 6rem;
+  }
+  .ara {
+    display: none;
+  }
+  .sekiller {
+    grid-template-columns: 256px 256px;
+    margin-left: 13rem;
+  }
+  .sekiller :nth-child(3) {
+    margin-top: 28rem;
+  }
+}
+@media (max-width: 950px) {
+  .eynekli {
+    width: 500px;
+  }
+  .IMMERSIVE {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 860px) {
+  .seklin-ustunde-yazi{
+    margin-top: 0rem;
+  }
+  .navbar-button{
+    display: block;
+  }
+  .navbar .linkler {
+    display: none;
+  }
+  .THE-LEADER-IN {
+    font-size: 2rem;
+  }
+  .sekiller {
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 750px) {
+  .arxa-sekil {
+    background-image: url(mobile/image-hero.jpg);
+    background-size: 750px;
+  }
+  .seklin-ustunde-yazi {
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+.navbar{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+  .our-creations,
+  .sekiller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .THE-LEADER-IN {
+    margin-bottom: 2rem;
+  }
+  .sekiller {
+    margin-right: 16rem;
+  }
+  .sekiller :nth-child(2) {
+    margin-top: 22rem;
+  }
+  .sekiller :nth-child(1) {
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 600px) {
+  .yazilar {
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .eynekli {
+    width: 400px;
+  }
+  .IMMERSIVE {
+    font-size: 2rem;
+  }
+  .ust-hisse {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .linkler {
+    display: grid;
+    grid-template-columns: 2rem 2rem;
+    
+  }
+  .linkler :nth-child(5){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    place-self: center; 
+    margin-bottom: 1rem;
+  }
+  .yazilar {
+    width: 20rem;
+  }
+  .eynekli {
+    width: 300px;
+  }
+  .seklin-ustunde-yazi{
+    padding: 2rem;
+  }
+  .eynekli-sekil-yazilar {
+    margin-top: 7rem;
+  }
+  .IMMERSIVE{
+    font-size: 1.5rem;
+  }
+  .arxa-sekil{
+    height: 700px;
+  }
+}
+.none{
+  display: none;
+}
